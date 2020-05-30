@@ -80,7 +80,7 @@
 <script>
 
 import ActivityItem from './components/ActivityItem'
-import fetchActivities from './api/index.js'
+import {fetchActivities} from '@/api/index'
 export default {
   name: 'app',
   components: {
